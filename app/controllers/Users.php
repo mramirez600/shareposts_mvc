@@ -138,7 +138,7 @@
           } else {
             $data['password_err'] = 'Password incorrect.';
 
-            $this->view('user/login', $data);
+            $this->view('users/login', $data);
           }
         } else {
           // Load view with errors
